@@ -12,7 +12,7 @@ const SideDrawer = (props) => {
             onClose={()=> props.onClose(false)}
         >
             <List component="nav">
-                <ListItem button onClick={()=> console.log('Featured')}>
+                <ListItem button onClick={()=> console.log('Event starts in')}>
                     Event starts in
                 </ListItem>
 
